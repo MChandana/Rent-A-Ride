@@ -1,0 +1,182 @@
+html {
+  font-family: "arial", sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  text-align: left;
+}
+a {
+    color: inherit;
+    outline: inherit;
+    text-decoration: inherit;
+}
+h1{
+  letter-spacing: 1px;
+  font-family: "Avenir Next", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+p {
+  margin: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  border: solid 1px lightgrey;
+}
+
+.logo {
+  background-color: #499cd0;
+  width: 100%;
+  position: fixed;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  text-align: left;
+  font-style: italic;
+}
+
+.drop-down-menu {
+  display: none;
+  position: fixed;
+  right: 10px;
+  top: 17px;
+  width: 100px;
+  background-color: white;
+  color: #499cd0;
+  text-align: left;
+  margin-right: 20px;
+  border: solid 1px #499cd0;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.menu-element {
+  padding-top: 5px
+}
+
+.menu-header {
+  font-family: "Avenir Next Medium";
+  font-size: 20px;
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+#menu {
+  width: 80px;
+  position: fixed;
+  right: 0px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Avenir Next Medium";
+}
+
+#menu:hover {
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.box {
+  border: solid 2px grey;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+#my-form {
+  margin: 0px;
+}
+
+.scroll-list {
+  overflow:auto;
+  height: 200px;
+}
+
+button {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.feedback-text {
+  overflow: auto;
+  width: 250px;
+}
+
+.page-title {
+  font-size: 30px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.update-form {
+  width: 250px;
+  text-align: right;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.small-button {
+  text-align: center;
+  background-color: #499cd0;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  transition: .2s;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  border: 0px;
+}
+
+.small-button:hover {
+  background-color: #71b2da;
+}
+
+.center {
+  text-align: center;
+}

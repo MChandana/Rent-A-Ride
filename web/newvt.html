@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rent A Ride</title>
+    <link rel="stylesheet" href="CSS/Rent-A-Ride.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css"/>
+  </head>
+  <body>
+    <!--HEADER-->
+    <h1 class="logo"><a href="homepage.html">RENT A RIDE</a></h1>
+    <div id="menu" class="button">USER</div>
+    
+    <!--<ul id="drop-down-menu" class="drop-down-menu">
+      <a href=""><div class="menu-header">USER</div></a>
+      <a href="userprof.html"><li>Profile</li></a>
+      <a href="feedback.html"><li>Feedback</li></a>
+      <a href="index.html"><li>Logout</li></a>
+    </ul>-->
+
+    <h2 class="log-in-page">Add New Vehicle Type and Prices</h2>
+    <img class="profimg" src="images/carpic.png" id="profile-image1" class="img-circle img-responsive" width="200" height="200" align="center"> 
+    <form id="register-form" action="ViewVehicleTypes" method="post">
+      Name: 
+      	<input type="text" name="name"><br>
+      
+      Maximum Amount of Hours For Rental: <input type="text" name="mxHrs"><br>
+      Price: <input type="text" name="price">
+      <input type="submit" value="Add New Vehicle Type" style="border: none;color: white;background-color: #499cd0">
+    </form>
+    <br>
+     <div class="footer"></div>
+     <script src="js/Rent-A-Ride.js"></script>
+  </body>
+</html>

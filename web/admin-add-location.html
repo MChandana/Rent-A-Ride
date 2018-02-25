@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rent A Ride</title>
+    <link rel="stylesheet" href="CSS/Admin.css">
+  </head>
+  <body>
+    <!--HEADER-->
+    <h1 class="logo"><a href="admin-homepage.html">RENT A RIDE</a></h1>
+    <div id="menu" class="button">ADMIN</div>
+
+    <ul id="drop-down-menu" class="drop-down-menu">
+      <a href=""><div class="menu-header">ADMIN</div></a>
+      <a class="menu-link" href=""><li class="menu-element">Profile</li></a>
+      <a class="menu-link" href="index.html"><li class="menu-element">Logout</li></a>
+    </ul>
+
+    <h3 class="page-title">Add New Location</h3>
+    <!--name, address, and capacity-->
+    <form class="update-form" action="CreateRentalLocation" method="post">
+      Name: <input type="text" name="name"><br>
+      Address: <input type="text" name="address"><br>
+      Capacity: <input type="number" name="capacity"><br>
+      <div class="center">
+        <input type="submit" name="new-location" class="small-button">
+      </div>
+    </form>
+
+    <form action="BrowseLocations" method="get">
+      <div class="center">
+      <input type="submit" value="Back" class="small-button">
+      </div>
+    </form>
+
+
+    <div class="footer"></div>
+    <script src="js/Rent-A-Ride.js"></script>
+  </body>
+</html>

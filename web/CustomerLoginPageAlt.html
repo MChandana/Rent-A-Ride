@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rent A Ride</title>
+    <link rel="stylesheet" href="CSS/Rent-A-Ride.css">
+</head>
+<body>
+<!--HEADER-->
+<h1 class="logo"><a href="">RENT A RIDE</a></h1>
+<div id="menu" class="button">USER</div>
+
+
+<ul id="drop-down-menu" class="drop-down-menu">
+    <a href=""><div class="menu-header">USER</div></a>
+    
+    <a href="UserProfile">Profile</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="Logout"><li>Logout</li></a>
+    
+</ul>
+
+<h2 class="manage-ride">Manage Rides</h2>
+
+<div class="flex-box-center">
+		
+		<form class="single-button-form" action="seeReservations" method="post">
+			<input type="submit" value="My Reservations" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="comment" method="post">
+			<input type="submit" value="Leave Comment" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="terminate" method="post">
+			<input type="submit" value="Terminate Membership" class="small-button">
+		</form>
+	</div>
+
+<h2 class="find-a-ride">Find a Ride</h2>
+
+
+<div style="margin: auto;text-align: center">
+    Search for location:
+    <form action="DisplayRLVehicles" method="get" style="text-align: center;margin-left: inherit">
+        <input type="text" name="RLocsearch">
+        <input type="submit" value="Search">
+    </form>
+
+</div>
+
+
+
+<div class="footer"></div>
+<script src="js/Rent-A-Ride.js"></script>
+</body>
+</html>

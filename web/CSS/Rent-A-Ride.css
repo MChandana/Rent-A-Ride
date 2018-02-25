@@ -1,0 +1,444 @@
+html {
+  font-family: "Avenir Next", sans-serif;
+}
+body {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+a {
+  color: inherit;
+  outline: inherit;
+  text-decoration: inherit;
+}
+h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: "Avenir Next Medium";
+  font-size: 25px;
+}
+h1, h2 {
+  letter-spacing: 1px;
+}
+h4 {
+  font-family: "Avenir Next Medium";
+  font-size: 25px;
+}
+
+.logo {
+  background-color: #499cd0;
+  width: 100%;
+  position: fixed;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  text-align: left;
+  font-style: italic;
+}
+
+.button {
+  text-align: center;
+  background-color: #499cd0;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  transition: .2s;
+  font-family: "Avenir Next Medium";
+}
+
+.button:hover {
+  background-color: #71b2da;
+}
+
+.small-button {
+  text-align: center;
+  background-color: #499cd0;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  transition: .2s;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  border: 0px;
+}
+
+.small-button:hover {
+  background-color: #71b2da;
+}
+
+#log-in {
+  width: 80px;
+  position: fixed;
+  right: 0px;
+}
+
+#log-in:hover {
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+.car-image {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 0px;
+  z-index: -2;
+}
+
+.statement {
+  z-index: -1;
+  padding-top: 150px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#join-now {
+  width: 110px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#how-it-works {
+  margin-top: 400px;
+  margin-bottom: 50px;
+}
+
+.icon {
+  width: 150px;
+}
+
+.how-it-works-title {
+  font-size: 25px;
+  font-family: "Avenir Next Medium";
+  width: 200px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.how-it-works-detail {
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.car {
+  width: 250px;
+  height: auto;
+}
+
+.city-pic {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.log-in-page {
+  z-index: -1;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+form {
+  text-align: right;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#log-in-form {
+  width: 230px;
+}
+
+#generic-button, #find-button {
+  width: 90px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#forgot-password {
+  width: 180px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#admin-login {
+  width: 160px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#register-button {
+  width: 70px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#register-form {
+  width: 300px;
+}
+
+#credit-card-form {
+  width: 300px;
+}
+
+#email-form {
+  width: 200px;
+}
+
+.find-a-ride {
+  z-index: -1;
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.select-flex-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+select {
+  margin: 20px;
+  width: 100px;
+}
+
+.form-select {
+  margin: 0px;
+  width: 146px;
+}
+
+.drop-down-menu {
+  display: none;
+  position: fixed;
+  right: 10px;
+  width: 100px;
+  background-color: white;
+  color: #499cd0;
+  text-align: left;
+  margin-right: 20px;
+  border: solid 1px #499cd0;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.menu-header {
+  font-size: 20px;
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+#menu {
+  width: 80px;
+  position: fixed;
+  right: 0px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+#menu:hover {
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+.manage-ride, .feedback-title{
+  z-index: -1;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.rented-car {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#pick-up-button, #cancel-button ,#rent-button{
+  width: 80px;
+  margin-top: 0px;
+  margin-right: 12px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.feedback-select {
+  width: 200px;
+}
+
+.feedback-form {
+  width:500px;
+  margin: auto;
+}
+
+#find-button {
+  margin-bottom: 50px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+#car-search {
+  display: none;
+}
+
+.rental-option {
+  border: solid 1px #499cd0;
+  padding: 10px;
+  width: 400px;
+  height: 225px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.rental-description {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.rental-image {
+  width: 250px;
+  object-fit: contain;
+}
+
+.footer {
+  height: 200px;
+}
+
+/*Media Queries to make the website more responsive*/
+@media (max-width: 1300px) {
+  #how-it-works {
+    margin-top: 300px;
+  }
+
+  .how-it-works-title {
+    width: 300px;
+  }
+
+  .how-it-works-detail {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1125px) {
+  .city-pic {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .statement {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .statement {
+    font-size: 25px;
+    /*font-size: 18px;*/
+  }
+
+  #how-it-works {
+    margin-top: 220px;
+  }
+
+  .how-it-works-title {
+    width: 200px;
+  }
+
+  .how-it-works-detail {
+    width: 200px;
+  }
+}
+
+@media (max-width: 745px) {
+  .city-pic {
+    width: 130px;
+  }
+}
+
+@media (max-width: 675px) {
+  .logo {
+    font-size: 25px;
+  }
+
+  #log-in, #menu {
+    font-size: 15px;
+  }
+
+  .car-image {
+    position: inherit;
+  }
+
+  .statement {
+    /*font-size: 18*/
+    padding-top: 10px;
+    color: black;
+  }
+
+  #how-it-works {
+    margin-top: 100px;
+  }
+
+  .icon {
+    width: 125px;
+  }
+
+  .how-it-works-title {
+    width: 150px;
+  }
+
+  .how-it-works-detail {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .car {
+    width: 170px;
+  }
+}

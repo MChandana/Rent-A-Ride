@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rent A Ride</title>
+    <link rel="stylesheet" href="CSS/Rent-A-Ride.css">
+  </head>
+  <body>
+    <!--HEADER-->
+    <h1 class="logo"><a href="">RENT A RIDE</a></h1>
+    <div id="menu" class="button">USER</div>
+
+    <ul id="drop-down-menu" class="drop-down-menu">
+      <a href=""><div class="menu-header">USER</div></a>
+      <a href="userprof.html"><li>Profile</li></a>
+      <a href="feedback.html"><li>Feedback</li></a>
+      <a href="index.html"><li>Logout</li></a>
+    </ul>
+
+    <h2 class="manage-ride">Manage Rides</h2>
+
+	<div class="flex-box-center">
+		<form class="single-button-form" action="seeReservations" method="post">
+			<input type="submit" value="My Reservations" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="newReservation" method="post">
+			<input type="submit" value="New Reservation" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="comment" method="post">
+			<input type="submit" value="Leave Comment" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="cancel" method="post">
+			<input type="submit" value="Cancel a Reservation" class="small-button">
+		</form>
+		
+		<form class="single-button-form" action="terminate" method="post">
+			<input type="submit" value="Terminate Membership" class="small-button">
+		</form>
+	</div>
+
+    <div id="example-car" class="rented-car">
+      <p> Car: Honda Civic<br>
+          Time: 11/24 10:00 AM<br>
+          Location: 123 Main St.<br>
+      </p>
+      <div>
+        <div id="pick-up-button" class="button">pick up</div>
+        <div id="cancel-button" class="button">cancel</div>
+      </div>
+    </div>
+
+    <h2 class="find-a-ride">Find a Ride</h2>
+
+    <div class="select-flex-box">
+      <select>
+        <option value="" disabled selected>Location</option>
+        <option value="athens">Athens</option>
+        <option value="atlanta">Atlanta</option>
+        <option value="savannah">Savannah</option>
+      </select>
+
+      <select>
+        <option value="" disabled selected>Vehicle Type</option>
+        <option value="sedan">Sedan</option>
+        <option value="truck">Truck</option>
+        <option value="minivan">Minivan</option>
+        <option value="hybrid">Hybrid</option>
+      </select>
+    </div>
+
+    <div id="find-button" class="button">find</div>
+
+    <div id="car-search" class="flex-box">
+      <div class="rental-option">
+        <div class = "rental-description">
+          <p>
+              Car: Honda Civic<br>
+              Location:<br>
+              123 Main St.<br>
+          </p>
+          <h4>$20 /hr</h4>
+          <div id="rent-button" class="button">rent</div>
+        </div>
+        <img src="images/Honda-Civic-sedan.jpg" class="rental-image" alt="honda civic image"/>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+    <script src="Rent-A-Ride.js"></script>
+  </body>
+</html>

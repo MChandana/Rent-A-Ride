@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Admin Page</title>
+        <link rel="stylesheet" href="CSS/AdminPage.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    </head>
+    
+    <body>
+        <div class="logo">
+           <!-- <p class="plogo"><a href="Logout.html">Logout</a></p>-->
+            <div id="menu" class="plogo" style="color: steelblue">
+
+                <form action="Logout" method="Get">
+                    <input type="submit" value="Logout" name="staying">
+                </form>
+
+            </div>
+            <h1 class="hlogo"><a href="AdminLogin.html">Rent A Ride</a></h1>
+        </div>
+        
+        <div class="welcome">
+          <h1>Welcome to Manage Content Page</h1>
+        </div>
+        
+    <div>
+        &nbsp;&nbsp;&nbsp;
+            <a href="AdminLogin.html">Home</a>
+        <form action="BrowseVehicles" method="get">
+            <button type="submit" class="btn btn-link">Vehicles</button>
+        </form>
+       <!-- <form action="/BrowseLocations" method="get">
+              <button type="submit" class="btn btn-link">Locations</button>
+          </form>-->
+        <a href="BrowseRLocations.html">Locations</a>
+
+        <form action="/ViewMembers" method="get">
+            <button type="submit" class="btn btn-link">Members</button>
+        </form>
+        
+        <form action="UpdateAdminProfile" method="get">
+            <button type="submit" class="btn btn-link">Admin Profile</button>
+        </form>
+        <!--<form action="/ViewVehicleTypes" method="get">
+            <button type="submit" class="btn btn-link">View Vehicle Types</button>
+        </form><br>-->
+        
+         &nbsp; &nbsp; &nbsp;
+        <a href="reservations.html">Reservations</a><br>
+        
+        <form action="TerminateMember" method="post">
+            <button type="submit" class="btn btn-link">Terminate Membership</button>
+        </form>
+        
+        <form action="ChangePrices" method="get">
+            <button type="submit" class="btn btn-link">Customer Prices</button>
+        </form>
+        
+        <form action="updateVehicleType" method="get">
+            <button type="submit" class="btn btn-link">Update Vehicle Type</button>
+        </form>
+        &nbsp; &nbsp; &nbsp;
+        <a href="newvt.html">Create A New Vehicle Type</a><br><br><br><br>
+        
+        &nbsp; &nbsp; &nbsp;
+        <a href="MembersPage.html">See All Members</a><br><br><br>
+        
+         &nbsp; &nbsp; &nbsp;
+        <a href="VehiclePage.html">Customer Comments</a><br><br><br>
+        
+        
+        
+        
+        
+        
+     
+        
+       
+
+
+          </div>
+
+
+
+      </body>
+  </html>

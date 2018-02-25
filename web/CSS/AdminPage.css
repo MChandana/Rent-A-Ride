@@ -1,0 +1,163 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.logo {
+  background-color: #499cd0;
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  color: white;
+  margin: 0px;
+  position:fixed;
+  top:0px;
+  font-style: italic;
+  letter-spacing: 1px;
+  height:120px;
+}
+
+.hlogo{
+    text-align:left;
+    font-size:40px;
+    margin-left:10px;
+}
+
+.plogo{
+    margin-right:30px;
+    text-align:right;
+    font-size:20px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.plogo a{
+    text-decoration: none;
+    color:white;
+}
+
+.plogo a:hover{
+    color:black;
+}
+
+.hlogo a{
+    text-decoration: none;
+    color:white;
+}
+
+.hlogo a:hover{
+    color:black;
+}
+
+.welcome{
+  background-color:lightblue;
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  color: black;
+  margin-top:120px;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size:10px;
+  height:50px;
+  text-align: center;
+}
+
+.vertical-menu{
+    top:210px;
+    width:200px;
+    margin-top:20px;
+    display:block;
+}
+
+.vertical-menu a{
+    background-color:lightgray;
+    color:black;
+    font-size:15px;
+    display:block;
+    padding:20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+
+.vertical-menu a:hover{
+    background-color:#499cd0;
+    color:white;
+}
+
+.filter{
+   margin-left:110px;
+}
+
+#content{
+   overflow: auto;
+   height:100%;
+    }
+
+.column1{
+  width:170px;
+    float:left;
+    margin:20px;  
+}
+
+.column2{
+    width:170px;
+    float:left;
+    margin:20px;
+}
+
+.column2A{
+    width:400px;
+    float:left;
+    margin:50px;
+    text-align: center;
+    font-size: 30px;
+    border:1px black solid;
+}
+
+.vehicles img{
+    height:250px;
+    width:250px;
+}
+
+table{
+    border-spacing: 40px;
+}
+
+td{
+    border:5px #499cd0 solid;
+    border-radius:40px;
+}
+
+button{
+    background-color:#499cd0;
+    border-radius:10px;
+    height:50px;
+}
+
+td a:hover{
+   color:deeppink;
+}
+
+td a{
+    text-decoration: none;
+    color:black;
+}
+
+.carinfo h1{
+    text-align: center;
+    
+}
+
+ul{
+    list-style: none;
+    font-family: "Avenir Next", sans-serif;
+    text-align:left;
+}
+
+
+
+
+
